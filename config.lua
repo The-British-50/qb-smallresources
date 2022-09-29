@@ -8,14 +8,14 @@ Config.EnableProne = true
 Config.JointEffectTime = 60
 Config.RemoveWeaponDrops = true
 Config.RemoveWeaponDropsTimer = 25
-Config.DefaultPrice = 20 -- Default price for the carwash
+Config.DefaultPrice = 250 -- Default price for the carwash
 Config.DirtLevel = 0.1 -- Threshold for the dirt level to be counted as dirty
 Config.DisableAmbience = false -- Disabled distance sirens, distance car alarms, etc
 
 Config.Disable = {
     disableHudComponents = {1, 2, 3, 4, 7, 9, 13, 14, 19, 20, 21, 22}, -- Hud Components: https://docs.fivem.net/natives/?_0x6806C51AD12B83B8
     disableControls = {37}, -- Controls: https://docs.fivem.net/docs/game-references/controls/
-    displayAmmo = true -- false disables ammo display
+    displayAmmo = false -- false disables ammo display
 }
 
 Config.Density = {
@@ -81,8 +81,8 @@ Config.BlacklistedVehs = {
     [`SAVAGE`] = true,
     [`TITAN`] = true,
     [`RHINO`] = true,
-    [`FIRETRUK`] = true,
-    [`MULE`] = true,
+    [`FIRETRUK`] = false,
+    [`MULE`] = false,
     [`MAVERICK`] = true,
     [`BLIMP`] = true,
     [`AIRTUG`] = true,
@@ -150,6 +150,18 @@ Config.Teleports = {
         },
         [2] = {
             coords = vector4(1088.81, -3187.57, -38.99, 181.7),
+            ["AllowVehicle"] = false,
+            drawText = '[E] Leave'
+        },
+    },--Money wash Enter/Exit
+    [3] = {
+        [1] = {
+            coords = vector4(961.76, -2189.51, 30.51, 266.22),
+            ["AllowVehicle"] = false,
+            drawText = '[E] Enter Money Wash'
+        },
+        [2] = {
+            coords = vector4(1138.11, -3198.75, -39.67, 178.83),
             ["AllowVehicle"] = false,
             drawText = '[E] Leave'
         },
