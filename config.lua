@@ -115,6 +115,7 @@ Config.BlacklistedVehs = {
     [`rrocket`] = true,
     [`ruiner2`] = true,
     [`deluxo`] = true,
+    [`monster`] = true,
 }
 
 Config.BlacklistedPeds = {
@@ -141,12 +142,12 @@ Config.Teleports = {
         },
 
     },
-    --Coke Processing Enter/Exit
+    --Lucas warehouse Enter/Exit
     [2] = {
         [1] = {
             coords = vector4(909.49, -1589.22, 30.51, 92.24),
             ["AllowVehicle"] = false,
-            drawText = '[E] Enter Coke Processing'
+            drawText = '[E] Enter Lucas Warehouse'
         },
         [2] = {
             coords = vector4(1088.81, -3187.57, -38.99, 181.7),
