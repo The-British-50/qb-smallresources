@@ -155,7 +155,7 @@ Config.Teleports = {
             drawText = '[E] Leave'
         },
     },--Money wash Enter/Exit
-    [3] = {
+    --[[[3] = {
         [1] = {
             coords = vector4(961.76, -2189.51, 30.51, 266.22),
             ["AllowVehicle"] = false,
@@ -166,7 +166,7 @@ Config.Teleports = {
             ["AllowVehicle"] = false,
             drawText = '[E] Leave'
         },
-    },
+    },]]--
 }
 
 Config.CarWash = { -- carwash
