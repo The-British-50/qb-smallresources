@@ -22,7 +22,7 @@ CreateThread(function()
         SetDiscordRichPresenceAssetSmallText('The British 50 Logo')
 
         QBCore.Functions.TriggerCallback('smallresources:server:GetCurrentPlayers', function(result)
-            SetRichPresence('Players: '..result..'/48')
+            SetRichPresence('Players: '..result..'/36')
         end)
 
         -- (26-02-2021) New Native:
@@ -33,7 +33,7 @@ CreateThread(function()
             last is the url (this has to start with "fivem://connect/" or "https://") 
         ]]--
         SetDiscordRichPresenceAction(0, "Join Game!", "https://cfx.re/join/3xmyy8")
-        SetDiscordRichPresenceAction(1, "Join Discord!", "https://discord.gg/DQQ2KnAymF")
+        SetDiscordRichPresenceAction(1, "Join Discord!", "https://discord.gg/british50")
 
         -- It updates every minute just in case.
 	Wait(60000)
