@@ -1,6 +1,7 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
 local Webhooks = {
+    ['pdarmory'] = 'https://discord.com/api/webhooks/1071813953564450856/Ks65DlCenjA_hdpHxCC3Lhep22GdV1QZR20rJKZlplzUXQR_6QLaEsvtIyeUqNHRRdWk',
     ['default'] = '',
     ['testwebhook'] = '',
     ['playermoney'] = '',
