@@ -187,6 +187,7 @@ RegisterNetEvent('consumables:client:DrinkAlcohol', function(itemName)
         TriggerServerEvent("consumables:server:drinkAlcohol", itemName)
         TriggerServerEvent("consumables:server:addThirst", QBCore.Functions.GetPlayerData().metadata["thirst"] + ConsumablesAlcohol[itemName])
         TriggerServerEvent('hud:server:RelieveStress', math.random(2, 4))
+        TriggerEvent('evidence:client:SetStatus', 'alcohol', 15) -- Added trigger for breathalyzer
         alcoholCount += 1
         if alcoholCount > 1 and alcoholCount < 4 then
             TriggerEvent("evidence:client:SetStatus", "alcohol", 200)
