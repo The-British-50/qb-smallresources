@@ -4,7 +4,7 @@ Config.MaxHeight = 5.0
 Config.MaxLength = 5.0
 Config.DamageNeeded = 100.0
 Config.IdleCamera = true
-Config.EnableProne = true
+Config.EnableProne = false
 Config.JointEffectTime = 60
 Config.RemoveWeaponDrops = true
 Config.RemoveWeaponDropsTimer = 25
@@ -19,8 +19,8 @@ Config.Disable = {
 }
 
 Config.Density = {
-    ['parked'] = 0.8,
-    ['vehicle'] = 0.8,
+    ['parked'] = 0.6,
+    ['vehicle'] = 0.6,
     ['multiplier'] = 0.8,
     ['peds'] = 0.8,
     ['scenario'] = 0.8,
@@ -83,8 +83,8 @@ Config.BlacklistedScenarios = {
 
 Config.BlacklistedVehs = {
     [`SHAMAL`] = true,
-    [`LUXOR`] = true,
-    [`LUXOR2`] = true,
+    [`LUXOR`] = false,
+    [`LUXOR2`] = false,
     [`JET`] = true,
     [`LAZER`] = true,
     [`BUZZARD`] = true,
