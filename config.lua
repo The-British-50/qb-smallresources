@@ -3,7 +3,7 @@ Config.MaxWidth = 5.0
 Config.MaxHeight = 5.0
 Config.MaxLength = 5.0
 Config.DamageNeeded = 100.0
-Config.IdleCamera = true
+Config.IdleCamera = false
 Config.EnableProne = false
 Config.JointEffectTime = 60
 Config.RemoveWeaponDrops = true
@@ -19,8 +19,8 @@ Config.Disable = {
 }
 
 Config.Density = {
-    ['parked'] = 0.6,
-    ['vehicle'] = 0.6,
+    ['parked'] = 0.2,
+    ['vehicle'] = 0.2,
     ['multiplier'] = 0.8,
     ['peds'] = 0.8,
     ['scenario'] = 0.8,
